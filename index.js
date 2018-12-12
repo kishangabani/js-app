@@ -28,10 +28,17 @@ console.log(selectedColors);
 console.log(selectedColors[1]);
 console.log(selectedColors[3]);
 
-//functions
+//functions // performing a task
 function greet(name){
     console.log('Hi,'+name);
 }
 
 greet('Mike');
 greet('Bil');
+
+// calculating a value
+function cube(num){
+    return num*num*num;
+}
+let val=cube(5);    
+console.log(val);
