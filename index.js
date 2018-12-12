@@ -1,4 +1,4 @@
-let name='KI';
+let name='Bob';
 console.log(name);
 
 
@@ -10,11 +10,11 @@ console.log(a,b, c, d);
 
 //object
 let person={
-name:'KIshan',
+name:'MIKe',
 age: 24
 };
 //dot notation
-person.name='KI';
+person.name='John';
 console.log(person.name);
 
 //bracket notation
@@ -28,3 +28,10 @@ console.log(selectedColors);
 console.log(selectedColors[1]);
 console.log(selectedColors[3]);
 
+//functions
+function greet(name){
+    console.log('Hi,'+name);
+}
+
+greet('Mike');
+greet('Bil');
