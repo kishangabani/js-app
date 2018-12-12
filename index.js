@@ -20,3 +20,11 @@ console.log(person.name);
 //bracket notation
 person['age']=25;
 console.log(person.age);
+
+//arrays
+let selectedColors=['red','blue','black'];
+selectedColors[3]='pink';
+console.log(selectedColors);
+console.log(selectedColors[1]);
+console.log(selectedColors[3]);
+
